@@ -1,0 +1,8 @@
+[
+    {"path_with_namespace":"a/b/projet A","name": "projet A","description":"project holding logic for A"},
+    {"path_with_namespace":"a/b/projet B","name": "projet B","description":"project holding logic for B"},
+    {"path_with_namespace":"a/b/projet C","name": "projet C","description":"project holding logic for C"},
+    {"path_with_namespace":"a/c/projet D","name": "projet D","description":"project holding logic for D"},
+    {"path_with_namespace":"a/c/projet E","name": "projet E","description":"project holding logic for E"},
+    {"path_with_namespace":"a/c/f/g/projet 3","name": "projet 3","description":"project holding logic for 3"}
+]
