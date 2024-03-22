@@ -85,7 +85,7 @@ def exploreGraph(graph, path, projectJson):
     return graph
 
 
-# python3 main.py -in projetsgitlab.json -pathStartsWith "" -outFile graph.md
+# python3 graphCreator.py -in projetsgitlab.json -pathStartsWith "" -outFile graph.md
 if __name__ == "__main__":
     argParser = ArgParser()
     argParser.parse()
@@ -124,9 +124,9 @@ if __name__ == "__main__":
     mermaid_graph = generateMermaid(finalGraph)
 
     with open(graphFile, 'w') as mermaidfile:
-        #mermaidfile.write("```mermaid\n")
+        mermaidfile.write("```mermaid\n")
         mermaidfile.write("classDiagram\n")
         mermaidfile.write(mermaid_graph)
-        #mermaidfile.write("```\n")
+        mermaidfile.write("```\n")
 
     print(f"Done. outputed in {graphFile}")
